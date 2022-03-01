@@ -2,4 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Lato, Helvetica, Arial, sans-serif;
 }
+
+:root {
+  --bg-dark: #0f224a;
+  --bg-light: #3894ff;
+  --bg-medium: #123e80;
+  --bg-dominant: #fff;
+  --text-light: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*********************/
+/****** JOIN ******/
+/********************/
+
+.join-community {
+  height: 7vh;
+  width: 100vw;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.join-community:hover {
+  background: var(--bg-medium);
+}
+
+/*********************/
+/**** NAV/HEADER ****/
+/********************/
