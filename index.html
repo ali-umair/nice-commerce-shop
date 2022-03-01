@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>Nice Commerce Shop</title>
     <link rel="icon" type="image/x-icon" href="./images/nice-logo-mark.svg">
@@ -16,11 +16,33 @@
     <header>
         <nav>
             <div class="logo-container">
-                <img src="./images/nice-logo-mark.svg" alt="Company Logo">
-                <img src="./images/nice-logo-text.svg" alt="Company Name">
+                <img src="./images/nice-logo-mark.svg" class="logo" alt="Company Logo">
+                <img src="./images/nice-logo-text.svg" class="logo-text" alt="Company Name">
             </div>
-            <div class="links-container"></div>
+            <div class="links-container">
+                <ul class="links">
+                    <li class="link"> <a href="#">ABOUT</a></li>
+                    <li class="link"><a href="#">HOW IT WORKS</a></li>
+                    <li class="link"><a href="#">WHY NICE COMMERCE</a></li>
+                    <li class="link"><a href="#">COMMUNITY</a></li>
+                    <li class="link dropdown"><a href="#">SHOP NICE</a></li>
+                    <li class="link"><button class="button button-small button-light">LET'S CHAT</button></li>
+                </ul>
+            </div>
         </nav>
     </header>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>No more operational headaches. Nice.</h1>
+        <p>
+            Use Nice commerce to offer quick shipping, boost your bottom lines, and get back to focusing
+            on the stuff that really matters.
+        </p>
+        <button class="button button-big button-light">Let's Chat</button>
+        </div>
+    </section>
+    <div class="warehouse-delivery">
+        <img src="./images/nice-warehouse-delivery.jpg" alt="">
+    </div>
 </body>
 </html>
