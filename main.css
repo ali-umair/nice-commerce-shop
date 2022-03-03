@@ -76,6 +76,10 @@ img {
   background: var(--bg-light);
 }
 
+.button-light:hover {
+  background: var(--bg-medium);
+}
+
 .button-big {
   padding: 14px 40px;
   font-size: 20px;
@@ -240,12 +244,6 @@ nav {
   border-radius: 10px;
 }
 
-.figure p {
-  font-size: 14px;
-  /* width: 80%; */
-  line-height: 17px;
-}
-
 .shipped {
   background: var(--bg-div-1);
 }
@@ -272,8 +270,13 @@ nav {
   height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+}
+
+.much-more > h2 {
+  padding: 0px 48px;
+  margin-bottom: 48px;
 }
 
 .features-list {
@@ -286,4 +289,21 @@ nav {
 .features-list > div {
   width: 200px;
   height: 100px;
+}
+
+.features-list > div > div {
+  width: 184px;
+  height: 88px;
+  border-top: cadetblue 2px solid;
+}
+
+.features-list > div > div > h4 {
+  text-align: left;
+  margin-bottom: 8px;
+  margin-top: 18px;
+}
+
+.features-list > div > div > p {
+  text-align: left;
+  line-height: 26px;
 }
