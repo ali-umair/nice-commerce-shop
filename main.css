@@ -10,6 +10,9 @@
   --bg-light: #3894ff;
   --bg-medium: #123e80;
   --bg-dominant: #fff;
+  --bg-div-1: #edf3fc;
+  --bg-div-2: #f0faf1;
+  --bg-div-3: #fff4f1;
   --text-light: #fff;
   --text-dark: #3a3a3a;
 }
@@ -20,6 +23,8 @@ a {
 
 h1,
 h2,
+h3,
+h4,
 p {
   text-align: center;
   color: var(--text-dark);
@@ -35,9 +40,30 @@ h2 {
   line-height: 45px;
 }
 
+h3 {
+  font-size: 30px;
+  /* line-height: 38px; */
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+}
+
 p {
   font-size: 17px;
   line-height: 26px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.small-text {
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .button {
@@ -163,4 +189,101 @@ nav {
 
 .warehouse-delivery > img {
   width: 100%;
+}
+
+/*********************/
+/****** BRANDS ******/
+/********************/
+
+.brands-section {
+  display: flex;
+  height: 40vh;
+  align-items: center;
+}
+
+.join-brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.brands-text {
+  margin-bottom: 15px;
+}
+
+.brands-logos {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.brands-logo {
+  width: 7rem;
+}
+
+.brands-figures {
+  display: flex;
+  width: 50%;
+}
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  padding: 10px 20px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+
+.figure p {
+  font-size: 14px;
+  /* width: 80%; */
+  line-height: 17px;
+}
+
+.shipped {
+  background: var(--bg-div-1);
+}
+.scan {
+  background: var(--bg-div-2);
+  padding-bottom: 25px;
+}
+.retention {
+  background: var(--bg-div-3);
+}
+
+/*********************/
+/****** FEATURES ******/
+/********************/
+
+.features-section {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.much-more {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.features-list {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-list > div {
+  width: 200px;
+  height: 100px;
 }
