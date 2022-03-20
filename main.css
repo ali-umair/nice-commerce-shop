@@ -133,6 +133,11 @@ nav {
   max-width: 100%;
   width: 35px;
   height: auto;
+  transition: 0.5s;
+}
+
+.logo-container > .logo:hover {
+  transform: rotate(360deg);
 }
 
 .logo-container > .logo-text {
@@ -353,5 +358,61 @@ nav {
 
 .text-container > p {
   text-align: start;
+  margin-top: 20px;
+}
+
+/*********************/
+/****** GROWTH ******/
+/********************/
+
+.growth-section {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-container {
+  height: 40%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  /* margin-right: 80px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.growth-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+}
+
+.inventory {
+  background: #dbe6f8;
+}
+
+.retention {
+  background: #ffe9e1;
+}
+
+.return {
+  background: #e1f5e3;
+}
+
+.icon > div > img {
+  width: 42px;
+  height: 42px;
+}
+
+.icon > h4 {
   margin-top: 20px;
 }
