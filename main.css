@@ -14,7 +14,8 @@
   --bg-div-2: #f0faf1;
   --bg-div-3: #fff4f1;
   --text-light: #fff;
-  --text-dark: #3a3a3a;
+  --text-medium: #3f4e6e;
+  --text-dark: #0f224a;
 }
 
 a {
@@ -24,8 +25,7 @@ a {
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   text-align: center;
   color: var(--text-dark);
 }
@@ -54,6 +54,8 @@ h4 {
 p {
   font-size: 17px;
   line-height: 26px;
+  text-align: center;
+  color: var(--text-medium);
 }
 
 img {
@@ -306,4 +308,50 @@ nav {
 .features-list > div > div > p {
   text-align: left;
   line-height: 26px;
+}
+
+/*********************/
+/**** EXPERIENCE ****/
+/********************/
+
+.customer-experience-section {
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gif-container {
+  width: 50%;
+  height: 100%;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.gif-container > img {
+  max-width: 100%;
+  width: 600px;
+  height: 320px;
+}
+
+.text-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+}
+
+.text-container > h2 {
+  width: 70%;
+  text-align: start;
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+
+.text-container > p {
+  text-align: start;
+  margin-top: 20px;
 }
